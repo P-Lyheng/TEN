@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friend</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/mypageStyle.css" />
+    <link rel="stylesheet" href="library/fontawesome-6.2.0/css/all.css" />
+    <link rel="stylesheet" href="css/header.css" />
+  </head>
+  <body>
+    <header>
+      <div class="home-page">
+        <div class="container-fluid">
+          <div class="container m-auto">
+            <nav>
+              <div class="row">
+                <div class="logo">
+                  <a href="home.html">TEN</a>
+                </div>
+
+                <div class="col-8">
+                  <div class="navbar-nav">
+                    <a href="home.html"><i class="fa-solid fa-repeat"></i></a>
+                    <a href="myLesson.html" class="my-lesson">មេរៀនរបស់ខ្ញុំ</a>
+                    <div class="search-box">
+                      <span class="icon"><i class="fa fa-search"></i></span>
+                      <input type="text" id="search" placeholder="ស្វែងរក..." />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="navbar-function">
+                    <ul class="function-list">
+                      <li class="function-link">
+                        <div>
+                          <span
+                            ><i class="fa-solid fa-cart-shopping"></i>
+                            <p class="number-of-goods">2</p>
+                          </span>
+                        </div>
+                        <div class="goods">
+                          <ul class="goods-wrapper">
+                            <li class="goods-item">
+                              <a href="cart.html"
+                                ><div class="goods-img">
+                                  <img
+                                    src="img/lesson-detail/thumbnail.webp"
+                                    alt=""
+                                  />
+                                </div>
+                                <div class="goods-detail">
+                                  <h1>HTML/CSS</h1>
+                                  <p>បង្រៀនដោយលោកគ្រូ Berners-Lee</p>
+                                  <span>តម្លៃ៖ </span><span>100$</span>
+                                </div></a
+                              >
+                            </li>
+                            <li class="goods-item">
+                              <a href="cart.html"
+                                ><div class="goods-img">
+                                  <img
+                                    src="img/lesson-detail/thumbnail.webp"
+                                    alt=""
+                                  />
+                                </div>
+                                <div class="goods-detail">
+                                  <h1>HTML/CSS</h1>
+                                  <p>បង្រៀនដោយលោកគ្រូ Berners-Lee</p>
+                                  <span>តម្លៃ៖ </span><span>100$</span>
+                                </div></a
+                              >
+                            </li>
+                            <hr />
+                            <div class="goods-total">
+                              <div class="total">
+                                <p>ថ្លៃសរុប៖</p>
+                                <p>200$</p>
+                              </div>
+                              <a href="cart.html" class="pay-btn">
+                                <div class="btn"><p>ទូទាត់</p></div>
+                              </a>
+                            </div>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="function-link">
+                        <div>
+                          <span><i class="fa-solid fa-bell"></i></span>
+                          <div class="notification">
+                            <div class="heading">
+                              <h3>សេចក្ដីជូនដំណឹង</h3>
+                              <span>សារ​ ៣</span>
+                              <p>លុបទាំងអស់</p>
+                            </div>
+                            <ul class="notification-list">
+                              <li>
+                                <a href="#" class="notification-link active">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer4.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>២​ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link active">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer3.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>៤ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer2.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>៦​ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer4.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>១១ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link active">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer1.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>២១​ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer4.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>២១​ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="function-link">
+                        <a href="chat.html"
+                          ><span><i class="fa-solid fa-message"></i></span
+                        ></a>
+                      </li>
+                      <li class="function-link function-link-btn">
+                        <div>
+                          <img src="img/home-page/profile.webp" alt="profile" />
+                        </div>
+                        <div class="pre-setting">
+                          <ul class="list">
+                            <li>
+                              <a
+                                href="social-profileOwner-post.html"
+                                class="list-link"
+                                ><img
+                                  src="img/home-page/profile.webp"
+                                  alt="prfile"
+                                />
+                                <h2>Mell</h2></a
+                              >
+                            </li>
+                            <hr />
+                            <li>
+                              <a href="account-setting.html" class="list-link">
+                                <span>
+                                  <i class="fa-solid fa-gear"></i>
+                                </span>
+                                <p>ការកំណត់</p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="exit.html" class="list-link">
+                                <span>
+                                  <i
+                                    class="fa-solid fa-arrow-right-from-bracket"
+                                  ></i> </span
+                                >ចាកចេញ</a
+                              >
+                            </li>
+                          </ul>
+                          <ul class="quick-link">
+                            <li>
+                              <a
+                                href="typeOfLesson.html"
+                                class="quick-link-list"
+                                >វគ្គសិក្សា</a
+                              >
+                            </li>
+                            <li>
+                              <a href="about-us.html" class="quick-link-list"
+                                >អំពីយើង</a
+                              >
+                            </li>
+                            <li>
+                              <a href="event.html" class="quick-link-list"
+                                >ព្រឹត្តិការណ៍</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="social profile friend">
+      <div class="container-fluid">
+        <div class="container m-auto">
+          <div class="row">
+            <div class="col-12">
+              <div class="back">
+                <button href="" onclick="window.history.back()">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+              </div>
+              <div class="cover-profile">
+                <div class="pf-wrapper">
+                  <a href="">
+                    <div class="profile">
+                      <img src="img/profile.webp" alt="" />
+                    </div>
+                  </a>
+                  <div class="username">
+                    <h1>Duong Chanvatey</h1>
+                    <small>doungchanvatey@gmail.com</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 p-20px15 display-flex justify-flex-end">
+              <div class="button-request fri-request">
+                <a href="account-setting.html" class="owner">
+                  <i class="fa-solid fa-gear"></i> កំណត់គណនី</a
+                >
+              </div>
+            </div>
+            <div class="col-12 pt-50px option">
+              <div class="option">
+                <ul class="option-list">
+                  <li class="option-item">
+                    <a href="social-profileOwner-post.html" class="option-link">
+                      បង្ហោះ
+                    </a>
+                    <div class="underline"></div>
+                  </li>
+                  <li class="option-item">
+                    <a href="social-profile-Picture.html" class="option-link">
+                      រូបភាព
+                    </a>
+                    <div class="underline"></div>
+                  </li>
+                  <li class="option-item">
+                    <a href="social-profileVdo.html" class="option-link">
+                      វីដេអូ
+                    </a>
+                    <div class="underline"></div>
+                  </li>
+                  <li class="option-item active">
+                    <a href="social-profileFriend.html" class="option-link">
+                      មិត្តភក្ដិ
+                    </a>
+                    <div class="underline"></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- ===============POST=============== -->
+            <div class="col-12 pt-40px">
+              <div class="social-wrapper p-0 display-flex">
+                <div class="col-8 p-0 pr-70px">
+                  <div class="card p-30px45">
+                    <div class="title-fri">
+                      <p>បញ្ជីរាយឈ្មោះមិត្ត</p>
+                    </div>
+                    <div class="fri-list">
+                      <div class="wrapper">
+                        <div class="avatar">
+                          <img src="img/social-friend/01.webp" alt="" />
+                        </div>
+                        <div class="fri-name">
+                          <p>Hou Skye</p>
+                          <small>១៦ភ្ជាប់ទំនាក់ទំនង</small>
+                        </div>
+                        <div
+                          class="connection display-flex align-items-center justify-space-between"
+                        >
+                          <a href="" class="message">ផ្ញើរសារ</a>
+                          <a href="" class="call">
+                            <i class="fa-solid fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="avatar">
+                          <img src="img/social-friend/02.webp" alt="" />
+                        </div>
+                        <div class="fri-name">
+                          <p>Em Panha</p>
+                          <small>១៦ភ្ជាប់ទំនាក់ទំនង</small>
+                        </div>
+                        <div
+                          class="connection display-flex align-items-center justify-space-between"
+                        >
+                          <a href="" class="message">ផ្ញើរសារ</a>
+                          <a href="" class="call">
+                            <i class="fa-solid fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="avatar">
+                          <img src="img/social-friend/03.webp" alt="" />
+                        </div>
+                        <div class="fri-name">
+                          <p>Som Sinat</p>
+                          <small>១៦ភ្ជាប់ទំនាក់ទំនង</small>
+                        </div>
+                        <div
+                          class="connection display-flex align-items-center justify-space-between"
+                        >
+                          <a href="" class="message">ផ្ញើរសារ</a>
+                          <a href="" class="call">
+                            <i class="fa-solid fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="avatar">
+                          <img src="img/social-friend/04.webp" alt="" />
+                        </div>
+                        <div class="fri-name">
+                          <p>Rous Nita</p>
+                          <small>១៦ភ្ជាប់ទំនាក់ទំនង</small>
+                        </div>
+                        <div
+                          class="connection display-flex align-items-center justify-space-between"
+                        >
+                          <a href="" class="message">ផ្ញើរសារ</a>
+                          <a href="" class="call">
+                            <i class="fa-solid fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="avatar">
+                          <img src="img/social-friend/05.webp" alt="" />
+                        </div>
+                        <div class="fri-name">
+                          <p>Lay Keanleng</p>
+                          <small>១៦ភ្ជាប់ទំនាក់ទំនង</small>
+                        </div>
+                        <div
+                          class="connection display-flex align-items-center justify-space-between"
+                        >
+                          <a href="" class="message">ផ្ញើរសារ</a>
+                          <a href="" class="call">
+                            <i class="fa-solid fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="wrapper">
+                        <div class="avatar">
+                          <img src="img/social-friend/01.webp" alt="" />
+                        </div>
+                        <div class="fri-name">
+                          <p>Clara Elica</p>
+                          <small>១៦ភ្ជាប់ទំនាក់ទំនង</small>
+                        </div>
+                        <div
+                          class="connection display-flex align-items-center justify-space-between"
+                        >
+                          <a href="" class="message">ផ្ញើរសារ</a>
+                          <a href="" class="call">
+                            <i class="fa-solid fa-phone"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="see-more">
+                        <a href="">ចុចមើលបន្ថែម</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- INFO+INTRO -->
+                <div class="col-4 p-0 pl-35px">
+                  <div class="card intro">
+                    <div class="title">
+                      <h3>ការណែនាំ</h3>
+                    </div>
+                    <div class="describe">
+                      <p>
+                        ជានិស្សិតឆ្នាំទី២ នៃសាកលវិទ្យាល័យន័រតុន ដេប៉ាតឺម៉ង់
+                        Software Development
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card info">
+                    <div class="title">
+                      <h3>អំពីខ្លួន</h3>
+                    </div>
+                    <div class="info-wrapper mg-10px0">
+                      <ul class="info-list">
+                        <li class="info-item">
+                          <a href="" class="info-link">
+                            <div class="info-detail">
+                              <i class="fa-solid fa-house"></i>
+                              <p>ភ្នំពេញ</p>
+                            </div>
+                            <i class="fa-solid fa-pen"></i>
+                          </a>
+                        </li>
+                        <li class="info-item">
+                          <a href="" class="info-link">
+                            <div class="info-detail">
+                              <i class="fa-solid fa-school"></i>
+                              <p>ANT Training</p>
+                            </div>
+                            <i class="fa-solid fa-pen"></i>
+                          </a>
+                        </li>
+                        <li class="info-item">
+                          <a href="" class="info-link">
+                            <div class="info-detail">
+                              <i class="fa-solid fa-briefcase"></i>
+                              <p>បទពិសោធ​ន៍ការងារ</p>
+                            </div>
+                            <i class="fa-solid fa-plus active"></i>
+                          </a>
+                        </li>
+                        <li class="info-item">
+                          <a href="" class="info-link">
+                            <div class="info-detail">
+                              <i class="fa-solid fa-phone"></i>
+                              <p>+855 000 0000 000</p>
+                            </div>
+                            <i class="fa-solid fa-pen"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- INFO+INTRO -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>picture</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="library/fontawesome-6.2.0/css/all.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/mypageStyle.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="home-page">
+        <div class="container-fluid">
+          <div class="container m-auto">
+            <nav>
+              <div class="row">
+                <div class="logo">
+                  <a href="home.html">TEN</a>
+                </div>
+
+                <div class="col-8">
+                  <div class="navbar-nav">
+                    <a href="home.html"><i class="fa-solid fa-repeat"></i></a>
+                    <a href="myLesson.html" class="my-lesson">មេរៀនរបស់ខ្ញុំ</a>
+                    <div class="search-box">
+                      <span class="icon"><i class="fa fa-search"></i></span>
+                      <input type="text" id="search" placeholder="ស្វែងរក..." />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="navbar-function">
+                    <ul class="function-list">
+                      <li class="function-link">
+                        <div>
+                          <span
+                            ><i class="fa-solid fa-cart-shopping"></i>
+                            <p class="number-of-goods">2</p>
+                          </span>
+                        </div>
+                        <div class="goods">
+                          <ul class="goods-wrapper">
+                            <li class="goods-item">
+                              <a href="cart.html">
+                                <div class="goods-img">
+                                  <img
+                                    src="img/lesson-detail/thumbnail.webp"
+                                    alt=""
+                                  />
+                                </div>
+                                <div class="goods-detail">
+                                  <h1>HTML/CSS</h1>
+                                  <p>បង្រៀនដោយលោកគ្រូ Berners-Lee</p>
+                                  <span>តម្លៃ៖ </span><span>100$</span>
+                                </div>
+                              </a>
+                            </li>
+                            <li class="goods-item">
+                              <a href="cart.html">
+                                <div class="goods-img">
+                                  <img
+                                    src="img/lesson-detail/thumbnail.webp"
+                                    alt=""
+                                  />
+                                </div>
+                                <div class="goods-detail">
+                                  <h1>HTML/CSS</h1>
+                                  <p>បង្រៀនដោយលោកគ្រូ Berners-Lee</p>
+                                  <span>តម្លៃ៖ </span><span>100$</span>
+                                </div>
+                              </a>
+                            </li>
+                            <hr />
+                            <div class="goods-total">
+                              <div class="total">
+                                <p>ថ្លៃសរុប៖</p>
+                                <p>200$</p>
+                              </div>
+                              <a href="cart.html" class="pay-btn">
+                                <div class="btn">
+                                  <p>ទូទាត់</p>
+                                </div>
+                              </a>
+                            </div>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li class="function-link">
+                        <div>
+                          <span><i class="fa-solid fa-bell"></i></span>
+                          <div class="notification">
+                            <div class="heading">
+                              <h3>សេចក្ដីជូនដំណឹង</h3>
+                              <span>សារ​ ៣</span>
+                              <p>លុបទាំងអស់</p>
+                            </div>
+                            <ul class="notification-list">
+                              <li>
+                                <a href="#" class="notification-link active">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer4.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>២​ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link active">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer3.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>៤ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer2.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>៦​ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer4.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>១១ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link active">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer1.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>២១​ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#" class="notification-link">
+                                  <div class="image">
+                                    <img
+                                      src="img/home-page/lecturer4.webp"
+                                      alt=""
+                                    />
+                                  </div>
+                                  <p>
+                                    <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                    VS Code <br />
+                                    ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                  </p>
+
+                                  <p>២១​ ម៉ោងមុន</p>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="function-link">
+                        <a href="chat.html"
+                          ><span><i class="fa-solid fa-message"></i></span
+                        ></a>
+                      </li>
+                      <li class="function-link function-link-btn">
+                        <div>
+                          <img src="img/home-page/profile.webp" alt="profile" />
+                        </div>
+                        <div class="pre-setting">
+                          <ul class="list">
+                            <li>
+                              <a
+                                href="social-profileOwner-post.html"
+                                class="list-link"
+                                ><img
+                                  src="img/home-page/profile.webp"
+                                  alt="prfile"
+                                />
+                                <h2>Mell</h2>
+                              </a>
+                            </li>
+                            <hr />
+                            <li>
+                              <a href="account-setting.html" class="list-link">
+                                <span>
+                                  <i class="fa-solid fa-gear"></i>
+                                </span>
+                                <p>ការកំណត់</p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="exit.html" class="list-link">
+                                <span>
+                                  <i
+                                    class="fa-solid fa-arrow-right-from-bracket"
+                                  ></i> </span
+                                >ចាកចេញ</a
+                              >
+                            </li>
+                          </ul>
+                          <ul class="quick-link">
+                            <li>
+                              <a
+                                href="typeOfLesson.html"
+                                class="quick-link-list"
+                                >វគ្គសិក្សា</a
+                              >
+                            </li>
+                            <li>
+                              <a href="about-us.html" class="quick-link-list"
+                                >អំពីយើង</a
+                              >
+                            </li>
+                            <li>
+                              <a href="event.html" class="quick-link-list"
+                                >ព្រឹត្តិការណ៍</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="picture-social mt-2">
+      <div class="container-fluid">
+        <section class="picture-focus">
+          <div class="container m-auto">
+            <button onclick="window.history.back()" class="leave">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <div class="row justify-space-between">
+              <div class="col-7 p-0">
+                <div class="user-detail">
+                  <div class="user-acc display-flex align-items-center">
+                    <a href="" class="user-avatar">
+                      <div class="dark"></div>
+                      <img src="img/profile.webp" alt="" />
+                    </a>
+                    <div class="username">
+                      <a href="social-profileOwner-post.html"
+                        >Doung Chanvatey</a
+                      >
+                      <br /><small>១​ មករា ២០២៤</small>
+                    </div>
+                  </div>
+                  <div class="caption">
+                    <p>
+                      មហាសមុទ្រប្រៀបបានដូចជាកន្លែងងងឹត និងអាថ៌កំបាំង។
+                      វាជារឿងដ៏អាក្រក់ ប៉ុន្តែវាអស្ចារ្យ។
+                    </p>
+                  </div>
+                </div>
+                <div class="picture-react">
+                  <div class="picture-post">
+                    <img src="img/social-profile/cover.webp" alt="" />
+                  </div>
+                  <div class="react-wrapper">
+                    <ul class="react-list">
+                      <li class="react-item">
+                        <a href="" class="react-link">
+                          <i class="fa-regular fa-heart"></i>
+                          ៧៤
+                        </a>
+                      </li>
+                      <li class="react-item">
+                        <a href="" class="react-link">
+                          <i class="fa-regular fa-comment"></i>
+                          ៣
+                        </a>
+                      </li>
+                      <li class="react-item">
+                        <a href="" class="react-link">
+                          <i class="fa-solid fa-share"></i>
+                          ចែករំលែក
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="comment">
+                  <div class="title">
+                    <h1>ការបញ្ចេញមតិ(៣)</h1>
+                  </div>
+                  <div class="wrapper-cmt">
+                    <ul class="cmt-list">
+                      <li class="cmt-item">
+                        <div class="comment-acc">
+                          <div
+                            class="cmt-profile display-flex align-items-center"
+                          >
+                            <a href="" class="acc-avatar">
+                              <img src="img/social-friend/01.webp" alt="" />
+                            </a>
+                            <div class="acc-username">
+                              <a href="">Nu Rita</a><br />
+                              <small>២​ មករា ២០២៤</small>
+                            </div>
+                          </div>
+                          <div class="cmt">
+                            <p>
+                              សូមឲ្យតម្លៃ និងការពារពិភពលោកពណ៌ខៀវដ៏អស្ចារ្យនេះ
+                              ដែលយើងហៅថាផ្ទះ។ 💙🌊
+                              <span>
+                                <a href=""
+                                  ><br />#OceanBeauty #NatureAtItsFinest
+                                  #ProtectOurPlanet</a
+                                >
+                              </span>
+                            </p>
+                          </div>
+                          <div class="cmt-react">
+                            <ul
+                              class="cmtReact-list display-flex align-items-center"
+                            >
+                              <li class="cmtReact-item">
+                                <a href="" class="cmtReact-link">
+                                  <i class="fa-regular fa-heart"></i>
+                                  3
+                                </a>
+                              </li>
+                              <li class="cmtReact-item">
+                                <a href="" class="cmtReact-link">
+                                  <i class="fa-regular fa-comment"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cmt-item">
+                        <div class="comment-acc">
+                          <div
+                            class="cmt-profile display-flex align-items-center"
+                          >
+                            <a href="" class="acc-avatar">
+                              <img src="img/social-friend/02.webp" alt="" />
+                            </a>
+                            <div class="acc-username">
+                              <a href="">Thou Thiya</a><br />
+                              <small>២​ មករា ២០២៤</small>
+                            </div>
+                          </div>
+                          <div class="cmt">
+                            <p>
+                              រាល់ពេលដែលខ្ញុំឈរនៅមាត់ទឹក
+                              ហើយក្រឡេកមើលទៅមហាសមុទ្រដ៏ធំល្វឹងល្វើយ
+                              ខ្ញុំនឹកឃើញដល់ភាពអស្ចារ្យនៃភពផែនដីរបស់យើង
+                            </p>
+                          </div>
+                          <div class="cmt-react">
+                            <ul
+                              class="cmtReact-list display-flex align-items-center"
+                            >
+                              <li class="cmtReact-item">
+                                <a href="" class="cmtReact-link">
+                                  <i class="fa-regular fa-heart"></i>
+                                  3
+                                </a>
+                              </li>
+                              <li class="cmtReact-item">
+                                <a href="" class="cmtReact-link">
+                                  <i class="fa-regular fa-comment"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cmt-item">
+                        <div class="comment-acc">
+                          <div
+                            class="cmt-profile display-flex align-items-center"
+                          >
+                            <a href="" class="acc-avatar">
+                              <img src="img/social-friend/04.webp" alt="" />
+                            </a>
+                            <div class="acc-username">
+                              <a href="">Rith Kunthea</a><br />
+                              <small>២​ មករា ២០២៤</small>
+                            </div>
+                          </div>
+                          <div class="cmt">
+                            <p>
+                              ទេសភាពសមុទ្រប្រៀបបាននឹងផ្ទាំងគំនូរមួយ
+                              ដែលប្រែពណ៌ជាពណ៌ខៀវ បៃតង និងប្រផេះ
+                            </p>
+                          </div>
+                          <div class="cmt-react">
+                            <ul
+                              class="cmtReact-list display-flex align-items-center"
+                            >
+                              <li class="cmtReact-item">
+                                <a href="" class="cmtReact-link">
+                                  <i class="fa-regular fa-heart"></i>
+                                  3
+                                </a>
+                              </li>
+                              <li class="cmtReact-item">
+                                <a href="" class="cmtReact-link">
+                                  <i class="fa-regular fa-comment"></i>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <a href="" class="leave-cmt">
+                      <i class="fa-regular fa-comments"></i>
+                      បញ្ចេញមតិ
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 p-0">
+                <div class="pic-wrapper">
+                  <div class="title">
+                    <h3>រូបភាបផ្សេងៗទៀត</h3>
+                  </div>
+                  <div class="shape sq-picture">
+                    <a href="" class="">
+                      <div class="dark"></div>
+                      <img src="img/social-post/01.webp" alt="" />
+                    </a>
+                  </div>
+                  <div class="shape sq-picture">
+                    <a href="" class="">
+                      <div class="dark"></div>
+                      <img src="img/social-post/02.webp" alt="" />
+                    </a>
+                  </div>
+                  <div class="shape rec-picture">
+                    <a href="" class="">
+                      <div class="dark"></div>
+                      <div class="dark"></div>
+                      <img src="img/social-post/03.webp" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="landing-page mt-1">
+      <section class="end-footer">
+        <div class="container m-auto">
+          <div
+            class="wrapper display-flex justify-space-between align-items-center"
+          >
+            <div class="copyright">
+              <p>©រក្សាសិទ្ធិ​ដោយបណ្តាញអប់រំបច្ចេកវិទ្យា​​​​​​​​​​​​​​​​​​​</p>
+            </div>
+            <div class="service-page">
+              <ul class="service-list display-flex">
+                <li class="service-item">
+                  <a href="contact-us.html" class="service-link">ទំនាក់ទំនង</a>
+                </li>
+                <li class="service-item">
+                  <a href="about-us.html" class="service-link">អំពីយើង</a>
+                </li>
+                <li class="service-item">
+                  <a href="#" class="service-link">គោលការណ៍​ភាព​ឯកជន</a>
+                </li>
+                <li class="service-item">
+                  <a href="account-setting.html" class="service-link"
+                    >ការកំណត់</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="Javascript/home.js"></script>
+  </body>
+</html>

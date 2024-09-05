@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up Page</title>
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/mypageStyle.css">
+    <link rel="stylesheet" href="library/fontawesome-6.2.0/css/all.css">
+        <!-- AOS -->
+        <link rel="stylesheet" href="library/AOS-animetion/css/aos.css">
+</head> 
+<body>
+    
+    <header class="user-input-form">
+        <div class="container m-auto">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="">
+                        <h1>TEN</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="user-input-form">
+        <div class="container-fluid">
+            <div class="container m-auto">
+                <div class="wrapper">
+                    <div class="card"  data-aos="zoom-in-up">
+                        <div class="back">
+                            <a href="index.html">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </a>
+                        </div>
+                        <div class="title txt-center">
+                            <h2>ចុះឈ្មោះប្រើប្រាស់</h2>
+                            <p>តើអ្នកធ្លាប់បង្កើតគណនីរួចហើយមែនទេ? <span class="link"><a href="login.html">ចូលប្រើប្រាស់</a></span></p>
+                        </div>
+                        <div class="form">
+                            <form action="home.html">
+                                <div class="row">
+                                    <div class="col-12 p-13px60 ">
+                                        <div class="form-group">
+                                            <label for="firstname">នាមត្រកូល</label>
+                                            <input type="text" id="firstname" placeholder="នាមត្រកូល*" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 p-13px60 ">
+                                        <div class="form-group">
+                                            <label for="lastname">នាមឈ្មោះ</label>
+                                            <input type="text" id="lastname" placeholder="នាមឈ្មោះ*" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 p-13px60 ">
+                                        <div class="form-group">
+                                            <label for="gender">ភេទ</label>
+                                            <div class="form-wrapping display-flex justify-space-between">
+                                                <div class="wrapping mr-15px">
+                                                    <label for="woman">ស្រី</label>
+                                                    <input type="radio" id="woman" name="gender" value="women">
+                                                </div>
+                                                <div class="wrapping ml-15px">
+                                                    <label for="man">ប្រុស</label>
+                                                    <input type="radio" id="man" name="gender" value="women">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 p-13px60 ">
+                                        <div class="form-group">
+                                            <label for="call">លេខទូរស័ព្ទ</label>
+                                            <input type="tel" id="call" placeholder="លេខទូរស័ព្ទ*" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 p-13px60 ">
+                                        <div class="form-group">
+                                            <label for="email">អុីមែល</label>
+                                            <input type="email" id="email" placeholder="អុីមែល*" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 p-13px60 ">
+                                        <div class="form-group">
+                                            <label for="password">លេខសម្ងាត់</label>
+                                            <div class="form-wrapping display-flex justify-space-between">
+                                                <div class="col-6 p-0 mr-15px">
+                                                    <input type="password" class="form-control" id="password" placeholder="លេខសម្ងាត់*" required>
+                                                </div>
+                                                <div class="col-6 p-0 ml-15px">
+                                                    <input type="password" class="form-control" id="password" placeholder="ផ្ទៀងផ្ទាត់លេខសម្ងាត់*" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 privacy p-13px60">
+                                        <div class="form-group display-flex justify-flex-start">
+                                            <input type="checkbox" id="agree-privacy" required>
+                                            <label for="agree-privacy">
+                                                ខ្ញុំបានអាន និងយល់ព្រមលើ<span><a href="">គោលការណ៍ឯកជនភាព</a></span> 
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 p-13px60 display-flex justify-center">
+                                        <button type="submit" class="mybutton">ចូលប្រើប្រាស់</button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="library/AOS-animetion/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>

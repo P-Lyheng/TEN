@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Hind+Vadodara:wght@300;400;500;600;700&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+/* font-family: "Righteous", sans-serif; */
+/* font-family: "Inter", sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", BTB;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+@font-face{
+    font-family: Pop;
+    src:url(../font/Poppins/Poppins-Light.ttf)
+}
+@font-face {
+    font-family: BTB;
+    src: url(../font/Battambang/Battambang-Regular.ttf);
+}
+@font-face {
+    font-family: PV;
+    src: url(../font/Preahvihear/Preahvihear-Regular.ttf);
+}
+@font-face {
+    font-family: Moul;
+    src: url(../font/Moul/Moul-Regular.ttf);
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:#14213D;
+}
+
+.display-flex {
+    display: flex;
+}
+.display-block{
+    display: block;
+}
+/* align-items */
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: end;
+}
+.align-items-start{
+    align-items: start;
+}
+
+/* justify-content */
+.justify-space-between {
+    justify-content: space-between;
+}
+.justify-space-around {
+    justify-content: space-around;
+}
+.justify-space-evenly {
+    justify-content: space-evenly;
+}
+.justify-center{
+    justify-content: center!important;
+}
+.justify-flex-end{
+    justify-content: flex-end;
+}
+.justify-flex-start{
+    justify-content: flex-start!important;
+}
+
+/* flex-direction */
+.flex-direction-column{
+    flex-direction: column;
+}
+.flex-direction-row{
+    flex-direction: row;
+}
+/* text */
+.txt-center{
+    text-align: center;
+}
+/* -- Row -- */
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* -- Colum -- */
+.col-1 {
+    width: 8.33%;
+    padding: 0px 15px;
+}
+.col-2 {
+    width: 16.66%;
+    padding: 0px 15px;
+}
+.col-3 {
+    width: 25%;
+    padding: 0px 15px;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 0px 15px;
+}
+.col-5 {
+    width: 41.66%;
+    padding: 0px 15px;
+}
+.col-6 {
+    width: 50%;
+    padding: 0px 15px;
+}
+.col-7 {
+    width: 58.33%;
+    padding: 0px 15px;
+}
+.col-8 {
+    width: 66.66%;
+    padding: 0px 15px;
+}
+.col-9 {
+    width: 75%;
+    padding: 0px 15px;
+}
+.col-10 {
+    width: 83.33%;
+    padding: 0px 15px;
+}
+.col-11 {
+    width: 91.66%;
+    padding: 0px 15px;
+}
+.col-12{
+    width : 100%;
+    padding : 0 15px;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    max-width: 1350px;
+}
+
+/* Margin */
+.m-auto{
+    margin: auto;
+}
+.mt-5{
+    margin-top: 150px;
+}
+.mt-4{
+    margin-top: 100px;
+}
+.mt-3{
+    margin-top: 75px;
+}
+.mt-2{
+    margin-top: 50px;
+}
+.mt-1{
+    margin-top: 25px;
+}
+/* ============================== */
+.mg-10px0{
+    margin: 10px 0;
+}
+.mt-10px{
+    margin-top: 10px;
+}
+.ml-0{
+    margin-left: 0!important;
+}
+.ml-25px{
+    margin-left: 25px;
+}
+.mt-5px{
+    margin-top: 5px!important;
+}
+.mr-15px{
+    margin-right: 15px;
+}
+.ml-15px{
+    margin-left: 15px;
+}
+.ml-0{
+    margin-left: 0;
+}
+.mr-40px{
+    margin-right: 40px;
+}
+.m-30px0{
+    margin: 30px 0;
+}
+.ml-m30px{
+    margin-left: -120px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+/* ============================== */
+.p-30px45{
+    padding: 30px 40px 10px 40px!important;
+}
+.p-80px0{
+    padding: 0 0 0 70px;
+}
+.pb-15px{
+    padding-bottom: 15px;
+}
+.pb-30px{
+    padding-bottom: 30px;
+}
+.p-4px0{
+    padding: 4px 0;
+}
+.p-30px{
+    padding: 30px;
+}
+.p-0px40{
+    padding: 0 40px;
+}
+.p-10px20{
+    padding: 10px 20px;
+}
+.p-10px0{
+    padding: 10px 0px;
+}
+.p-0px15{
+    padding: 0 15px;
+}
+.p-0{
+    padding: 0;
+}
+.m-0px10{
+    margin: 0 10px;
+}
+.p-0px20{
+    padding: 0 20px;
+}
+.p-30px13px50{
+    padding: 30px 50px 20px 50px;
+}
+.p-30px20px50{
+    padding: 30px 50px 20px 50px;
+}
+.p-13px60{
+    padding:  13px 60px!important;
+}
+.p-20px15{
+    padding: 20px 15px
+}
+.mt-7px{
+    margin-top: 7px;
+}
+.pt-50px{
+    padding-top: 50px;
+}
+.pl-35px{
+    padding-left: 35px;
+}
+.pr-70px{
+    padding-right: 70px;
+}
+.pr-35px{
+    padding-right: 35px;
+}
+.pt-40px{
+    padding-top: 40px;
+}
+.p-0px40{
+    padding: 0 40px;
+}
+.p-0px30{
+    padding: 0 22px 0 70px;
+}
+.p-20px40px10{
+    padding: 20px 40px 10px 40px!important;
+}
+.pl-20px{
+    padding-left: 15px;
+}
+.pr-15px{
+    padding-right: 15px;
+}
+.pl-15px{
+    padding-left: 15px;
+}
+.p-0px65{
+    padding: 0 60px 0 55px;
+}
+.m-15px0{
+    margin: 15px 0;
+}
+.mb-30px{
+    margin-bottom: 25px;
+}
+.pl-50px{
+    padding-left: 50px;
+}
+.mt-50px{
+    margin-top: 50px;
+}
+.pt-20px{
+    padding-top: 20px;
+}
+/* ================================== */
+.border-bottom{
+    margin: 20px 20px 5px 20px;
+    background-color: #D3D3D3;
+    height: 1px;
+    width: 100%;
+}
+.p-5px0{
+    padding: 5px 0;
+}
+/* ================================== */
+.position-absolute{
+    position: absolute;
+    right: 55px;
+    bottom: 13px;
+}
+.col12-position{
+    position: absolute;
+    right: 35px;
+    bottom: 15px;
+}
+.position-relative{
+    position: relative;
+}
+/* ================== */
+.border-bottom{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+/* Social Home Page */
+.social-avatar{
+    display: block;
+    background-color: rgb(189, 189, 189);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.post-status .caption > p{
+    padding-top: 10px;
+    padding-bottom: 17px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    font-family:  "Inter", sans-serif;
+}
+.english{
+    font-family:  "Inter", sans-serif;
+}
+.english.username{
+    font-weight: 600;
+    font-family:  "Inter", sans-serif;
+}
+.khmer{
+    font-family: BTB;
+}

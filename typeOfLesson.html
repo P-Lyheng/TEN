@@ -1,0 +1,787 @@
+<!-- here's just component of navication bar and menu  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/lyheng.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="Library/fontawesome-6.2.0/css/all.css" />
+  <link rel="stylesheet" href="css/mypageStyle.css">
+  <link rel="stylesheet" href="library/AOS-animetion/css/aos.css">
+  <link rel="stylesheet" href="library/AnimationCSS/css/animate.min.css">
+  <title>type of lesson</title>
+</head>
+
+<body>
+  <header>
+    <div class="home-page">
+      <div class="container-fluid animate__animated animate__fadeInDown">
+        <div class="container m-auto">
+          <nav>
+            <div class="row">
+              <div class="logo">
+                <div class="menu-icon">
+                  <span><i class="fa-solid fa-bars"></i></span>
+                </div>
+                <a href="home.html">TEN</a>
+              </div>
+
+              <div class="col-8">
+                <div class="navbar-nav">
+                  <a href="social-homepage.html"><i class="fa-solid fa-repeat"></i></a>
+                  <a href="myLesson.html" class="my-lesson">មេរៀនរបស់ខ្ញុំ</a>
+                  <div class="search-box">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="text" id="search" placeholder="ស្វែងរក..." />
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="navbar-function">
+                  <ul class="function-list">
+                    <li class="function-link">
+                      <div>
+                        <span><i class="fa-solid fa-cart-shopping"></i>
+                          <p class="number-of-goods">2</p>
+                        </span>
+                      </div>
+                      <div class="goods">
+                        <ul class="goods-wrapper">
+                          <li class="goods-item">
+                            <a href="cart.html">
+                              <div class="goods-img">
+                                <img src="img/lesson-detail/thumbnail.webp" alt="" />
+                              </div>
+                              <div class="goods-detail">
+                                <h1>HTML/CSS</h1>
+                                <p>បង្រៀនដោយលោកគ្រូ Berners-Lee</p>
+                                <span>តម្លៃ៖ </span><span>100$</span>
+                              </div>
+                            </a>
+                          </li>
+                          <li class="goods-item">
+                            <a href="cart.html">
+                              <div class="goods-img">
+                                <img src="img/lesson-detail/thumbnail.webp" alt="" />
+                              </div>
+                              <div class="goods-detail">
+                                <h1>HTML/CSS</h1>
+                                <p>បង្រៀនដោយលោកគ្រូ Berners-Lee</p>
+                                <span>តម្លៃ៖ </span><span>100$</span>
+                              </div>
+                            </a>
+                          </li>
+                          <hr />
+                          <div class="goods-total">
+                            <div class="total">
+                              <p>ថ្លៃសរុប៖</p>
+                              <p>200$</p>
+                            </div>
+                            <a href="cart.html" class="pay-btn">
+                              <div class="btn">
+                                <p>ទូទាត់</p>
+                              </div>
+                            </a>
+                          </div>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li class="function-link">
+                      <div>
+                        <span><i class="fa-solid fa-bell"></i></span>
+                        <div class="notification">
+                          <div class="heading">
+                            <h3>សេចក្ដីជូនដំណឹង</h3>
+                            <span>សារ៦</span>
+                            <p>លុបទាំងអស់</p>
+                          </div>
+                          <ul class="notification-list">
+                            <li>
+                              <a href="videoCourse.html" class="notification-link active">
+                                <div class="image">
+                                  <img src="img/home-page/lecturer4.webp" alt="" />
+                                </div>
+                                <p>
+                                  <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                  VS Code <br />
+                                  ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                </p>
+
+                                <p>២​ ម៉ោងមុន</p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="videoCourse -lock.html" class="notification-link">
+                                <div class="image">
+                                  <img src="img/home-page/lecturer3.webp" alt="" />
+                                </div>
+                                <p>
+                                  <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                  VS Code <br />
+                                  ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                </p>
+
+                                <p>៤ ម៉ោងមុន</p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="videoCourse.html" class="notification-link">
+                                <div class="image">
+                                  <img src="img/social-friend/01.webp" alt="" />
+                                </div>
+                                <p>
+                                  <b>Summy</b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                  VS Code <br />
+                                  ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                </p>
+
+                                <p>៦​ ម៉ោងមុន</p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="videoCourse.html" class="notification-link">
+                                <div class="image">
+                                  <img src="img/social-friend/04.webp" alt="" />
+                                </div>
+                                <p>
+                                  <b>Son Yan</b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                  VS Code<br />
+                                  ឲ្យបានត្រឹមត្រូវ
+                                </p>
+
+                                <p>១១ ម៉ោងមុន</p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="videoCourse.html" class="notification-link active">
+                                <div class="image">
+                                  <img src="img/social-friend/03.webp" alt="" />
+                                </div>
+                                <p>
+                                  <b>Hark Long</b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                  VS Code <br />
+                                  ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                </p>
+
+                                <p>២១​ ម៉ោងមុន</p>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="videoCourse.html" class="notification-link active">
+                                <div class="image">
+                                  <img src="img/home-page/lecturer4.webp" alt="" />
+                                </div>
+                                <p>
+                                  <b>Son Lida </b> បានបង្ហោះ ៖ របៀបប្រើប្រាស់
+                                  VS Code <br />
+                                  ឲ្យបានលឿនត្រឹមរយៈពេល៥​នាទី
+                                </p>
+
+                                <p>២​ ម៉ោងមុន</p>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="function-link">
+                      <a href="chat.html"><span><i class="fa-solid fa-message"></i></span></a>
+                    </li>
+                    <li class="function-link function-link-btn">
+                      <div>
+                        <img src="img/home-page/profile.webp" alt="profile" />
+                      </div>
+                      <div class="pre-setting">
+                        <ul class="list">
+                          <li>
+                            <a href="social-profileOwner-post.html" class="list-link"><img src="img/home-page/profile.webp"
+                                alt="prfile" />
+                              <h2>Doung Chanvatey</h2>
+                            </a>
+                          </li>
+                          <hr />
+                          <li>
+                            <a href="account-setting.html" class="list-link">
+                              <span>
+                                <i class="fa-solid fa-gear"></i>
+                              </span>
+                              <p>ការកំណត់</p>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="exit.html" class="list-link">
+                              <span>
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i> </span>
+                              <p>ចាកចេញ</p>
+                            </a>
+                          </li>
+                        </ul>
+                        <ul class="quick-link">
+                          <li>
+                            <a href="typeOfLesson.html" class="quick-link-list">វគ្គសិក្សា</a>
+                          </li>
+                          <li>
+                            <a href="about-us.html" class="quick-link-list">អំពីយើង</a>
+                          </li>
+                          <li>
+                            <a href="event.html" class="quick-link-list">ព្រឹត្តិការណ៍</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="type-of-lesson page">
+      <div class="container-fluid">
+        <div class="menu animate__animated  animate__fadeInLeft">
+          <ul class="menu-list">
+            <li>
+              <a href="home.html" class="list-link"><span><i class="fa-solid fa-house"></i></span>
+                <p>ទំព័រដើម</p>
+              </a>
+            </li>
+            <li>
+              <a href="social-homepage.html" class="list-link"><span><i class="fa-brands fa-connectdevelop"></i></span>
+                <p>បណ្ដាញសង្គម</p>
+              </a>
+            </li>
+            <li class="drop-link">
+              <div class="list-link active">
+                <span><i class="fa-brands fa-leanpub"></i></span>
+                <p>វគ្គសិក្សា</p>
+              </div>
+              <ul class="dropdown">
+                <li>
+                  <a href="typeOfLesson.html" class="list-link active"><span><i class="fa-solid fa-book"></i></span>
+                    <p>ប្រភេទមេរៀន</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="roadmap.html" class="list-link"><span><i class="fa-solid fa-map"></i></span>
+                    <p>ផែនការសិក្សា</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="professor-list.html" class="list-link"><span><i class="fa-solid fa-user-tie"></i></span>
+                    <p>សាស្ត្រាចារ្យ</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="about-us.html" class="list-link"><span><i class="fa-solid fa-users-between-lines"></i></span>
+                <p>អំពីយើង</p>
+              </a>
+            </li>
+            <li>
+              <a href="account-setting.html" class="list-link"><span><i class="fa-solid fa-gear"></i></span>
+                <p>ការកំណត់</p>
+              </a>
+            </li>
+            <li>
+              <a href="event.html" class="list-link"><span><i class="fa-solid fa-calendar"></i></span>
+                <p>ព្រឹត្តិការណ៍</p>
+              </a>
+            </li>
+          </ul>
+          <div class="verson">
+            <hr />
+            <br />
+            <div class="verson-detail">
+              <p>Verson 1.0.0</p>
+              last updated 28 april 2024
+            </div>
+          </div>
+        </div>
+        <section class="type-of-lesson-header">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 mt-2 animate__animated animate__zoomIn">
+                <div class="link">
+                  <button onclick="window.history.back()">
+                    <i class="fa-solid fa-circle-chevron-left"></i>
+                  </button>
+                  <a href="home.html">ទំព័រដើម</a>/<a href="typeOfLesson.html"><b>ប្រភេទនៃមេរៀន</b></a>
+                  
+                </div>
+                <div class="title">
+                  <h1>ប្រភេទនៃមេរៀន</h1>
+                </div>
+                <div class="heading  ">
+                  <ul class="heading-list">
+                    <li>
+                      <a href="" class="heading-link active">ទាំងអស់</a>
+                    </li>
+                    <li>
+                      <a href="" class="heading-link hvr-bounce-to-right">មេរៀនថ្មីៗ</a>
+                    </li>
+                    <li>
+                      <a href="" class="heading-link hvr-bounce-to-right">មេរៀនពេញនិយម</a>
+                    </li>
+                    <li>
+                      <a href="" class="heading-link hvr-bounce-to-right">មេរៀនបង់ថ្លៃ</a>
+                    </li>
+                    <li>
+                      <a href="" class="heading-link hvr-bounce-to-right">មេរៀនឥតគិតថ្លៃ</a>
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="type-of-lesson-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-3 mt-1 animate__animated animate__zoomIn">
+                <span><i class="fa-solid fa-book-open"></i></span>
+                ភាសាសរសេរកម្មវិធី
+                <ul class="lesson-list">
+                  <li>
+                    <a href="" class="lesson-link active">HTML & CSS </a>
+                    <a href="" class="lesson-link">JavaScript </a>
+                    <a href="" class="lesson-link">Java </a>
+                    <a href="" class="lesson-link">C# </a>
+                    <a href="" class="lesson-link">C++ </a>
+                    <a href="" class="lesson-link">Python </a>
+                    <a href="" class="lesson-link">Ruby </a>
+                    <a href="" class="lesson-link">PHP </a>
+                    <a href="" class="lesson-link">Swift </a>
+                    <a href="" class="lesson-link">Kotlin </a>
+                    <a href="" class="lesson-link">Go (Golang) </a>
+                    <a href="" class="lesson-link">SQL </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-9 mt-1">
+                <div class="sort">
+                  <div class="input-box">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span><input type="search"
+                      placeholder=" ស្វែងរកមេរៀន" />
+                  </div>
+                  <select name="course" id="course" class="form-control">
+                    <option value="general">ទូទៅ</option>
+                    <option value="video">វីដេអូរ</option>
+                    <option value="course">វគ្គសិក្សា</option>
+                  </select>
+                </div>
+                <div class="courses-card-wrapper mt-1">
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="videoCourse.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <p>11:11</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML Input Types <span> វីដេអូ</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនឥតគិតថ្លៃ</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="videoCourse -lock.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-lock"></i></span>
+                          <p>11:11</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML Input Types <span> វីដេអូ</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4" data-aos="fade-up">
+                    <a href="lessonDetail.html">
+                      <div class="course-card mt-1">
+                        <div class="card-img">
+                          <span><i class="fa-solid fa-cart-shopping"></i></span>
+                          <p><i class="fa-solid fa-clipboard"></i>១០មេរៀន</p>
+                          <img src="img/type-of-lesson-page/course-card.webp" alt="" />
+                        </div>
+                        <div class="card-title">
+                          HTML <span> វគ្គសិក្សា</span>
+                        </div>
+                        <div class="card-dsc">
+                          បង្រៀនដោយ៖ លោកគ្រូ Beners Lee
+                        </div>
+                        <div class="rate">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span>100$</span>
+                        </div>
+                        <div class="card-btn">
+                          <div class="new-lesson btn">មេរៀនថ្មីៗ</div>
+                          <div class="pay btn">មេរៀនត្រូវបង់</div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <section class="pagination-section">
+                  <ul class="pagination">
+                    <li><a class="" href="#">«</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#" class="active">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">»</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="Javascript/home.js"></script>
+  <script src="library/AOS-animetion/js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
